@@ -1,0 +1,31 @@
+/* src/components/Checkout.css */
+
+.checkout {
+  padding: 20px;
+}
+
+.checkout-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkout-item-image {
+  width: 100px; /* Ajusta el tamaño de la imagen según tu diseño */
+  height: auto;
+  margin-right: 15px;
+}
+
+.checkout-item-details {
+  flex: 1;
+}
+
+.checkout-total {
+  margin-top: 20px;
+  font-size: 1.2em;
+}

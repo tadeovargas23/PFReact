@@ -1,0 +1,32 @@
+.item-detail-container {
+  text-align: center;
+  padding: 20px;
+  overflow-x: auto; 
+  overflow-y: auto;
+}
+
+.item-detail-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 20px; 
+}
+
+.item-price {
+  font-size: 1.2rem;
+  margin-bottom: 20px; 
+}
+
+.item-description {
+  font-size: 1rem;
+  margin-bottom: 20px; 
+}
+
+.item-detail-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}

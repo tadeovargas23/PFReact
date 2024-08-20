@@ -1,0 +1,24 @@
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .item {
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    transition: transform 0.3s;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
